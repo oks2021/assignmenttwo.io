@@ -1,0 +1,128 @@
+
+
+
+h1 {
+	font-family:Playfair Display;
+	font-size: 36px;
+	letter-spacing: 5px;
+	color: tomato;
+}
+
+h2 {
+	font-family:Playfair Display;
+	font-size: 20px;
+	letter-spacing: 4px;
+	color: rgb(180, 180, 180);
+}
+
+.navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: white <!--#333333-->;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(105, 180, 255);
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:rgb(240, 240, 240);
+}
+
+
+
+
+<ul>
+
+  <li><a href="page4.html">What</a></li>
+  <li><a href="page3.html">Where</a></li>
+  <li><a href="page2.html">How</a></li>
+  <li><a href="page1.html">Why</a></li>
+  <li><a href="index.html">Home</a></li>
+</ul>
+</nav>
+
+
+
+
+
+/* header Container holding the image and the text */
+.container {
+  position: relative;
+
+}
+
+/* Bottom right text */
+.bottomright {
+	position: absolute;
+	bottom: 4%;
+	right: 50px;
+	font-size:500%;
+	letter-spacing: 10px;
+	color: rgba(255,255,255,0.6);
+
+}
+
+
+		
+
+body {
+  background-color: white;
+}
+
+p {
+	font-size: 120%;
+	letter-spacing: 1px;
+	color: black;
+}
+
+
+/* Style the footer */
+.footer {
+  background-color: rgb(240, 240, 240);
+  
+  padding: 5px;
+  text-align: center;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+	
